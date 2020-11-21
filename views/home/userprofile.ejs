@@ -1,0 +1,21 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="name">Name</label>
+        <input class="user-input" type="text" name="username" value="<%= user.ename %>" required><br>
+        <label for="email">Email</label>
+        <input class="user-input" type="text" name="useremail" value="<%= user.eemail %>" required><br>
+        <label for="pass">Password</label>
+        <input class="user-input" type="text" name="password" value="<%= user.epass %>" required><br>
+
+        <input class="btn" type="submit" name="submit" value="Update">
+    </form>
+
+
+</body>
+</html>

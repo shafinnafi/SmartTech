@@ -1,0 +1,35 @@
+*{margin:0;padding:0;outline:0;}
+body {
+    background-image: url(checking.jpg);
+   
+    background-attachment: fixed;
+     background-size: 100% 100%;
+
+}
+.section h1 {
+    padding-left: 613px;
+    padding-top: 239px;
+}
+.check {
+    margin-left: 458px;
+    margin-top: 30px;
+}
+.check input {
+    width: 350px;
+    height: 39px;
+    font-size: 24px;
+}
+.check b {
+    font-size: 33px;
+}
+.Gendersub input {
+    background-color: #1FAA41;
+    color: black;
+    width: 234px;
+    height: 43px;
+    margin-top: 30px;
+    text-align: center;
+    
+    cursor: pointer;
+    margin-left: 579px;
+}

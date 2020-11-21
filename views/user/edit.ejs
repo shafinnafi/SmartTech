@@ -1,0 +1,53 @@
+<!-- <!DOCTYPE html>
+<html>
+<head>
+	<title>Edit User</title>
+</head>
+<body>
+	<form method="post">
+		<fieldset>
+			<legend>Edit User</legend>
+			<table>
+				<tr>
+					<td>Username</td>
+					<td><input type="text" name="username" value=""></td>
+				</tr>
+				<tr>
+					<td>Password</td>
+					<td><input type="password" name="password" value="password%>"></td>
+				</tr>
+				<tr>
+					<td>Email</td>
+					<td><input type="email" name="email" value="email%>"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input type="submit" name="submit" value="Submit"></td>
+				</tr>
+			</table>
+		</fieldset>
+	</form>
+</body>
+</html> -->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+</head>
+<body>
+    <form action="" method="post">
+        <label for="name">Name</label>
+        <input class="user-input" type="text" name="username" value="<%= user.ename %>" required><br>
+        <label for="email">Email</label>
+        <input class="user-input" type="text" name="useremail" value="<%= user.eemail %>" required><br>
+        <label for="pass">Password</label>
+        <input class="user-input" type="text" name="password" value="<%= user.epass %>" required><br>
+
+        <input class="btn" type="submit" name="submit" value="Update">
+    </form>
+
+
+</body>
+</html>
